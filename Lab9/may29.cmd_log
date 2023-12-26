@@ -1,0 +1,31 @@
+xst -intstyle ise -ifn "C:/lab/may29/may29.xst" -ofn "C:/lab/may29/may29.syr" 
+xst -intstyle ise -ifn "C:/lab/may29/may29.xst" -ofn "C:/lab/may29/may29.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may29.ucf -p xc6slx16-csg324-3 may29.ngc may29.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may29_map.ncd may29.ngd may29.pcf 
+par -w -intstyle ise -ol high -mt off may29_map.ncd may29.ncd may29.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may29.twx may29.ncd -o may29.twr may29.pcf -ucf may29.ucf 
+bitgen -intstyle ise -f may29.ut may29.ncd 
+xst -intstyle ise -ifn "C:/lab/may29/may29.xst" -ofn "C:/lab/may29/may29.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may29.ucf -p xc6slx16-csg324-3 may29.ngc may29.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may29_map.ncd may29.ngd may29.pcf 
+par -w -intstyle ise -ol high -mt off may29_map.ncd may29.ncd may29.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may29.twx may29.ncd -o may29.twr may29.pcf -ucf may29.ucf 
+bitgen -intstyle ise -f may29.ut may29.ncd 
+xst -intstyle ise -ifn "C:/lab/may29/may29.xst" -ofn "C:/lab/may29/may29.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may29.ucf -p xc6slx16-csg324-3 may29.ngc may29.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may29_map.ncd may29.ngd may29.pcf 
+par -w -intstyle ise -ol high -mt off may29_map.ncd may29.ncd may29.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may29.twx may29.ncd -o may29.twr may29.pcf -ucf may29.ucf 
+bitgen -intstyle ise -f may29.ut may29.ncd 
+xst -intstyle ise -ifn "C:/lab/may29/may29.xst" -ofn "C:/lab/may29/may29.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may29.ucf -p xc6slx16-csg324-3 may29.ngc may29.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may29_map.ncd may29.ngd may29.pcf 
+par -w -intstyle ise -ol high -mt off may29_map.ncd may29.ncd may29.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may29.twx may29.ncd -o may29.twr may29.pcf -ucf may29.ucf 
+bitgen -intstyle ise -f may29.ut may29.ncd 
+xst -intstyle ise -ifn "C:/lab/may29/may29.xst" -ofn "C:/lab/may29/may29.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may29.ucf -p xc6slx16-csg324-3 may29.ngc may29.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may29_map.ncd may29.ngd may29.pcf 
+par -w -intstyle ise -ol high -mt off may29_map.ncd may29.ncd may29.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may29.twx may29.ncd -o may29.twr may29.pcf -ucf may29.ucf 
+bitgen -intstyle ise -f may29.ut may29.ncd 

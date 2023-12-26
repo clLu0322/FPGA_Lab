@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\lab\may29\may29.ncd
+OUTFILE=C:\lab\may29\may29.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\lab\may29
+LICENSE=WebPack
+USER_INFO=212209677_0_0_330

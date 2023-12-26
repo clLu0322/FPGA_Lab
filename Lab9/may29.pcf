@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon May 29 10:06:18 2023
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "dip<0>" LOCATE = SITE "D14" LEVEL 1;
+COMP "dip<1>" LOCATE = SITE "E12" LEVEL 1;
+COMP "dip<2>" LOCATE = SITE "F12" LEVEL 1;
+COMP "dip<3>" LOCATE = SITE "V13" LEVEL 1;
+COMP "LED<0>" LOCATE = SITE "E13" LEVEL 1;
+COMP "LED<1>" LOCATE = SITE "C14" LEVEL 1;
+COMP "LED<2>" LOCATE = SITE "C4" LEVEL 1;
+COMP "LED<3>" LOCATE = SITE "A4" LEVEL 1;
+COMP "pb0" LOCATE = SITE "P4" LEVEL 1;
+COMP "rst" LOCATE = SITE "N4" LEVEL 1;
+SCHEMATIC END;
+

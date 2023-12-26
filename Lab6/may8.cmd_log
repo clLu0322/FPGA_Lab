@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/lab/may8/may8.xst" -ofn "C:/lab/may8/may8.syr" 
+xst -intstyle ise -ifn "C:/lab/may8/may8.xst" -ofn "C:/lab/may8/may8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may8.ucf -p xc6slx16-csg324-3 may8.ngc may8.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may8_map.ncd may8.ngd may8.pcf 
+par -w -intstyle ise -ol high -mt off may8_map.ncd may8.ncd may8.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may8.twx may8.ncd -o may8.twr may8.pcf -ucf may8.ucf 
+bitgen -intstyle ise -f may8.ut may8.ncd 

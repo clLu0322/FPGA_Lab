@@ -1,0 +1,41 @@
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may1.ucf -p xc6slx16-csg324-3 may1.ngc may1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may1_map.ncd may1.ngd may1.pcf 
+par -w -intstyle ise -ol high -mt off may1_map.ncd may1.ncd may1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may1.twx may1.ncd -o may1.twr may1.pcf -ucf may1.ucf 
+bitgen -intstyle ise -f may1.ut may1.ncd 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may1.ucf -p xc6slx16-csg324-3 may1.ngc may1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may1_map.ncd may1.ngd may1.pcf 
+par -w -intstyle ise -ol high -mt off may1_map.ncd may1.ncd may1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may1.twx may1.ncd -o may1.twr may1.pcf -ucf may1.ucf 
+bitgen -intstyle ise -f may1.ut may1.ncd 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may1.ucf -p xc6slx16-csg324-3 may1.ngc may1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may1_map.ncd may1.ngd may1.pcf 
+par -w -intstyle ise -ol high -mt off may1_map.ncd may1.ncd may1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may1.twx may1.ncd -o may1.twr may1.pcf -ucf may1.ucf 
+bitgen -intstyle ise -f may1.ut may1.ncd 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may1.ucf -p xc6slx16-csg324-3 may1.ngc may1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may1_map.ncd may1.ngd may1.pcf 
+par -w -intstyle ise -ol high -mt off may1_map.ncd may1.ncd may1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may1.twx may1.ncd -o may1.twr may1.pcf -ucf may1.ucf 
+bitgen -intstyle ise -f may1.ut may1.ncd 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may1.ucf -p xc6slx16-csg324-3 may1.ngc may1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may1_map.ncd may1.ngd may1.pcf 
+par -w -intstyle ise -ol high -mt off may1_map.ncd may1.ncd may1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may1.twx may1.ncd -o may1.twr may1.pcf -ucf may1.ucf 
+bitgen -intstyle ise -f may1.ut may1.ncd 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+xst -intstyle ise -ifn "C:/lab/may1/may1.xst" -ofn "C:/lab/may1/may1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc may1.ucf -p xc6slx16-csg324-3 may1.ngc may1.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o may1_map.ncd may1.ngd may1.pcf 
+par -w -intstyle ise -ol high -mt off may1_map.ncd may1.ncd may1.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml may1.twx may1.ncd -o may1.twr may1.pcf -ucf may1.ucf 
+bitgen -intstyle ise -f may1.ut may1.ncd 

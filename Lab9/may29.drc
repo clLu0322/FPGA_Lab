@@ -1,0 +1,8 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon May 29 10:06:41 2023
+
+drc -z may29.ncd may29.pcf
+
+DRC detected 0 errors and 0 warnings.

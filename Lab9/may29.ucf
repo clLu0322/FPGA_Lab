@@ -1,0 +1,15 @@
+NET"LED[0]" LOC = "E13";##2 on SW8 DS11 LED
+NET"LED[1]" LOC = "C14";##2 on SW8 DS12 LED
+NET"LED[2]" LOC = "C4";##2 on SW8 DS13 LED
+NET"LED[3]" LOC = "A4";##2 on SW8 DS14 LED
+
+NET"clk" LOC = "V10";##5 on X2 USER OSC Socket
+
+NET"rst" LOC = "N4";
+
+
+NET"dip[0]" LOC = "D14";##1 on SW8 DIP Sw
+NET"dip[1]" LOC = "E12";##2 on SW8 DIP Sw
+NET"dip[2]" LOC = "F12";##3 on SW8 DIP Sw
+NET"dip[3]" LOC = "V13";##4 on SW8 DIP Sw
+NET"pb0" LOC = "P4";

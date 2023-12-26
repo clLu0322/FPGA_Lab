@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\grade 3\FPGA\lab\final\final.ncd
+OUTFILE=D:\grade 3\FPGA\lab\final\final.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=D:\grade 3\FPGA\lab\final
+LICENSE=WebPack
+USER_INFO=212209677_0_0_330
